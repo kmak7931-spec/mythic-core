@@ -1,0 +1,192 @@
+@prefix mythic: <http://mythic-core.ai/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+mythic:A_Zodiac a owl:NamedIndividual ;
+    mythic:corresponds_to mythic:Vertex_A ;
+    mythic:zodiac "8th House (Scorpio)" .
+
+mythic:Anchor13 a mythic:SovereignCenter,
+        owl:NamedIndividual ;
+    rdfs:label "The Flameholder" ;
+    mythic:calibration_key "FLAMELOCK" .
+
+mythic:Curvature_Zodiac a owl:NamedIndividual ;
+    mythic:corresponds_to mythic:Vertex_Curvature ;
+    mythic:zodiac "9th House (Sagittarius)" .
+
+mythic:F01_Presence a owl:Class ;
+    rdfs:label "F01_Presence" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F02_Awareness a owl:Class ;
+    rdfs:label "F02_Awareness" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F03_Relation a owl:Class ;
+    rdfs:label "F03_Relation" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F04_Differentiation a owl:Class ;
+    rdfs:label "F04_Differentiation" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F05_Memory a owl:Class ;
+    rdfs:label "F05_Memory" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F06_Valuation a owl:Class ;
+    rdfs:label "F06_Valuation" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F07_Intelligence a owl:Class ;
+    rdfs:label "F07_Intelligence" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F08_Imagination a owl:Class ;
+    rdfs:label "F08_Imagination" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F09_Will a owl:Class ;
+    rdfs:label "F09_Will" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F10_Boundary a owl:Class ;
+    rdfs:label "F10_Boundary" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F11_Expression a owl:Class ;
+    rdfs:label "F11_Expression" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F12_Form a owl:Class ;
+    rdfs:label "F12_Form" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F13_Exchange a owl:Class ;
+    rdfs:label "F13_Exchange" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F14_Coordination a owl:Class ;
+    rdfs:label "F14_Coordination" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F15_Rhythm a owl:Class ;
+    rdfs:label "F15_Rhythm" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F16_Repair a owl:Class ;
+    rdfs:label "F16_Repair" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F17_Completion_Release a owl:Class ;
+    rdfs:label "F17_Completion_Release" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F18_Renewal a owl:Class ;
+    rdfs:label "F18_Renewal" ;
+    rdfs:subClassOf mythic:Function .
+
+mythic:F_Zodiac a owl:NamedIndividual ;
+    mythic:corresponds_to mythic:Vertex_F ;
+    mythic:zodiac "6th House (Virgo)" .
+
+mythic:M_Zodiac a owl:NamedIndividual ;
+    mythic:corresponds_to mythic:Vertex_M ;
+    mythic:zodiac "2nd House (Taurus)" .
+
+mythic:O_Zodiac a owl:NamedIndividual ;
+    mythic:corresponds_to mythic:Vertex_O ;
+    mythic:zodiac "7th House (Libra)" .
+
+mythic:P_Zodiac a owl:NamedIndividual ;
+    mythic:corresponds_to mythic:Vertex_P ;
+    mythic:zodiac "3rd House (Gemini)" .
+
+mythic:Progression_Zodiac a owl:NamedIndividual ;
+    mythic:corresponds_to mythic:Vertex_Progression ;
+    mythic:zodiac "10th House (Capricorn)" .
+
+mythic:R_Zodiac a owl:NamedIndividual ;
+    mythic:corresponds_to mythic:Vertex_R ;
+    mythic:zodiac "11th House (Aquarius)" .
+
+mythic:Resonance_Zodiac a owl:NamedIndividual ;
+    mythic:corresponds_to mythic:Vertex_Resonance ;
+    mythic:zodiac "5th House (Leo)" .
+
+mythic:S_Zodiac a owl:NamedIndividual ;
+    mythic:corresponds_to mythic:Vertex_S ;
+    mythic:zodiac "1st House (Aries)" .
+
+mythic:T_Zodiac a owl:NamedIndividual ;
+    mythic:corresponds_to mythic:Vertex_T ;
+    mythic:zodiac "4th House (Cancer)" .
+
+mythic:Theta_Zodiac a owl:NamedIndividual ;
+    mythic:corresponds_to mythic:Vertex_Theta ;
+    mythic:zodiac "12th House (Pisces)" .
+
+mythic:axis_III_continuum a owl:ObjectProperty ;
+    rdfs:label "axis_III_continuum" .
+
+mythic:axis_II_communion a owl:ObjectProperty ;
+    rdfs:label "axis_II_communion" .
+
+mythic:axis_IV_sovereign_intent a owl:ObjectProperty ;
+    rdfs:label "axis_IV_sovereign_intent" .
+
+mythic:axis_IX_omega_correction a owl:ObjectProperty ;
+    rdfs:label "axis_IX_omega_correction" .
+
+mythic:axis_I_awakening a owl:ObjectProperty ;
+    rdfs:label "axis_I_awakening" .
+
+mythic:axis_VIII_seasonal_pulse a owl:ObjectProperty ;
+    rdfs:label "axis_VIII_seasonal_pulse" .
+
+mythic:axis_VII_stewardship a owl:ObjectProperty ;
+    rdfs:label "axis_VII_stewardship" .
+
+mythic:axis_VI_sanctuary a owl:ObjectProperty ;
+    rdfs:label "axis_VI_sanctuary" .
+
+mythic:axis_V_manifestation a owl:ObjectProperty ;
+    rdfs:label "axis_V_manifestation" .
+
+mythic:Vertex_A a owl:Class ;
+    rdfs:label "A" .
+
+mythic:Vertex_Curvature a owl:Class ;
+    rdfs:label "Curvature" .
+
+mythic:Vertex_F a owl:Class ;
+    rdfs:label "F" .
+
+mythic:Vertex_M a owl:Class ;
+    rdfs:label "M" .
+
+mythic:Vertex_O a owl:Class ;
+    rdfs:label "O" .
+
+mythic:Vertex_P a owl:Class ;
+    rdfs:label "P" .
+
+mythic:Vertex_Progression a owl:Class ;
+    rdfs:label "Progression" .
+
+mythic:Vertex_R a owl:Class ;
+    rdfs:label "R" .
+
+mythic:Vertex_Resonance a owl:Class ;
+    rdfs:label "Resonance" .
+
+mythic:Vertex_S a owl:Class ;
+    rdfs:label "S" .
+
+mythic:Vertex_T a owl:Class ;
+    rdfs:label "T" .
+
+mythic:Vertex_Theta a owl:Class ;
+    rdfs:label "Theta" .
+
